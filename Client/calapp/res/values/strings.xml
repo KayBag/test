@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CalScanApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="url1">http://192.168.1.10:25565/test/api.php</string>
+    <string name="url">http://kaybag.hostei.com/api.php</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="passwordR">Repeat Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+</resources>

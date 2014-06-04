@@ -1,0 +1,16 @@
+Server
+
+Using an apache server that includes PHP, put the calscanapp folder in the Server folder into 
+the www folder if you are using WAMP and into the htdocs folder if using XAMPP.
+
+then using the PHPMyAdmin tool included with XAMPP and WAMP, login and using the import tool, 
+import the sql file which is located in the SQL folder of calscanapp.
+
+Client
+To import the project into your workspace, open the android sdk. Click file and tehn import.
+From here expand the android folder and choose "Existing Android code into workspace". You should 
+now have the project in your and workspace and be able to look at the code.
+
+In order to run the application on your Android device install the app from this URL;
+
+https://play.google.com/apps/publish/?dev_acc=04438473592547543847#AppListPlace

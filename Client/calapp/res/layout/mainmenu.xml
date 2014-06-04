@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout android:id="@+id/ll1"
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal"
+	    android:layout_weight="1" >
+    
+        <LinearLayout android:id="@+id/login"
+	        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_weight="1"
+		    android:padding="5sp"
+		    android:background="@android:drawable/list_selector_background" >
+    
+	        <TextView 
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="match_parent"
+	    	    android:text="Login" 
+	    	    android:gravity="center_vertical"
+	    	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    	    android:layout_weight="1"/>
+	        
+	        <ImageView android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+				android:adjustViewBounds="true"
+		    	android:scaleType="fitCenter"
+				android:src="@drawable/login"
+				android:padding="5sp"
+				android:layout_weight="2" />
+	    
+		</LinearLayout>
+	
+        <View
+		    android:layout_width="1dip"
+		    android:layout_height="fill_parent"
+		    android:background="#C0C0C0"
+		/>
+        
+        <LinearLayout android:id="@+id/register"
+	        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_weight="1"
+		    android:padding="5sp"
+		    android:background="@android:drawable/list_selector_background" >
+    
+	        <TextView 
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="match_parent"
+	    	    android:text="Register" 
+	    	    android:gravity="center_vertical"
+	    	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    	    android:layout_weight="1"/>
+	        
+	        <ImageView android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+				android:adjustViewBounds="true"
+		    	android:scaleType="fitCenter"
+				android:src="@drawable/register"
+				android:padding="5sp"
+				android:layout_weight="2" />
+	    
+		</LinearLayout>
+    
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/ll2"
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+	    android:weightSum="2"
+	    >
+    
+	    <LinearLayout android:id="@+id/logout"
+	        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_weight="1"
+		    android:padding="5sp"
+		    android:background="@android:drawable/list_selector_background" >
+    
+	        <TextView 
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="match_parent"
+	    	    android:text="Logout" 
+	    	    android:gravity="center_vertical"
+	    	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    	    android:layout_weight="1"/>
+	        
+	        <ImageView android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+				android:adjustViewBounds="true"
+		    	android:scaleType="fitCenter"
+				android:src="@drawable/logout"
+				android:padding="5sp"
+				android:layout_weight="2" />
+	    
+		</LinearLayout>
+	    
+	    <View
+		    android:layout_width="1dip"
+		    android:layout_height="fill_parent"
+		    android:background="#C0C0C0"
+		/>
+	    
+	    <LinearLayout android:id="@+id/addfood"
+	        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_weight="1" 
+		    android:padding="5sp"
+		    android:background="@android:drawable/list_selector_background">
+    
+	        <TextView android:id="@+id/ll1tv1"
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="match_parent"
+	    	    android:gravity="center_vertical"
+	    	    android:text="Add Food"
+	    	    android:textAppearance="?android:attr/textAppearanceLarge" 
+	    	    android:layout_weight="1" />
+	        
+	        <ImageView android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+				android:adjustViewBounds="true"
+		    	android:scaleType="fitCenter"
+				android:src="@drawable/add"
+				android:padding="5sp"
+				android:layout_weight="2" />
+	    
+		</LinearLayout>
+		
+	</LinearLayout>
+	 
+    <View android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#C0C0C0"
+	/>
+    
+    <LinearLayout android:id="@+id/ll3"
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+	    android:weightSum="2">
+    
+        <LinearLayout android:id="@+id/viewfood"
+	        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_weight="1" 
+		    android:padding="5sp"
+		    android:background="@android:drawable/list_selector_background">
+    
+	        <TextView android:id="@+id/ll1tv1"
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="match_parent"
+	    	    android:gravity="center_vertical"
+	    	    android:text="My Food"
+	    	    android:textAppearance="?android:attr/textAppearanceLarge" 
+	    	    android:layout_weight="1" />
+	        
+	        <ImageView android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+				android:adjustViewBounds="true"
+		    	android:scaleType="fitCenter"
+				android:src="@drawable/food"
+				android:padding="5sp"
+				android:layout_weight="2" />
+	    
+		</LinearLayout>
+	     
+        <View
+		    android:layout_width="1dip"
+		    android:layout_height="fill_parent"
+		    android:background="#C0C0C0"
+		/>
+        
+        <LinearLayout android:id="@+id/suggestions"
+	        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:layout_weight="1" 
+		    android:padding="5sp"
+		    android:background="@android:drawable/list_selector_background">
+    
+	        <TextView android:id="@+id/ll1tv1"
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="match_parent"
+	    	    android:gravity="center_vertical"
+	    	    android:text="Suggestions"
+	    	    android:textAppearance="?android:attr/textAppearanceLarge" />
+	    
+		</LinearLayout>
+	     
+	</LinearLayout>
+    
+    <LinearLayout android:id="@+id/ll4"
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal"
+	    android:layout_weight="1" >
+    </LinearLayout>
+    
+</LinearLayout>
